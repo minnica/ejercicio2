@@ -9,10 +9,6 @@ export class todoList extends LitElement {
 
   constructor() {}
 
-  increment() {}
-
-  decrement() {}
-
   render() {}
 }
 customElements.define("todo-list", todoList);
