@@ -5,10 +5,14 @@
 import { LitElement, html } from "lit";
 
 export class todoList extends LitElement {
-  static get properties() {}
+  //static get properties() {}
 
-  constructor() {}
+  //constructor() {}
 
-  render() {}
+  render() {
+    return html`
+      <h1>Ejercicio 2</h1>
+    `;
+  }
 }
 customElements.define("todo-list", todoList);
